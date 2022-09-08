@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: rgb(142, 196, 227);
+    color: white;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(55, 109, 153);
+    width: 100%;
+  }
+  
+  .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(230, 229, 229, 0.751);
+    padding: 30px;
+    border-radius: 50px;
+  }
+  
+  .objetive-component {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+  }
+  
+  form {
+    display: flex;
+    
+  }
+  
+  input {
+    padding: 15px 10px;
+    outline: none;
+    width: 50%;
+    border-radius: 5px;
+  }
+  
+  .list-component {
+   
+    width: 100%;
+    color: rgb(11, 107, 107);
+    margin-top: 20px;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+    background-color: rgba(24, 165, 208, 0.41);
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+  }
+  
+  li p {
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  .btn-delete {
+    margin-left: auto;
+    border: none;
+    background-color: #e392a5;
+    color: rgb(17, 71, 209);
+    font-weight: bold;
+    padding: 10px 10px;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 20%;
+    font-size: 1.2em;
+  }
+  
+  .btn-delete:hover {
+    cursor: pointer;
+    background-color: rgb(250, 6, 6);
+  }
+  
+  .btn-add {
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    font-family: fantasy;
+    background-color: rgb(13, 148, 69);
+    font-size: 1.4rem;
+    outline: none;
+    border-radius: 5px;
+  }
+  
+  .btn-add:hover {
+    cursor: pointer;
+    background-color: rgb(19, 243, 116);
+  }
+  
+  .empty {
+    color: rgb(253, 145, 2);
+  }
